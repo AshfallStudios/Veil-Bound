@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_load_cards",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_load_cards",
+  "parent":{
+    "name":"CardLogic",
+    "path":"folders/Scripts/CardLogic.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

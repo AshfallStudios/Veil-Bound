@@ -1,0 +1,23 @@
+[
+    {
+        "card_name": "Backstab",
+        "card_description": "Deal 3 damage to a target.",
+        "card_cost": 0,
+        "card_class": "Rogue",
+        "card_effect": "scr_effect_backstab"
+    },
+    {
+        "card_name": "Eviscerate",
+        "card_description": "Deal 2 damage. If combo is active, deal 4 instead.",
+        "card_cost": 2,
+        "card_class": "Rogue",
+        "card_effect": "scr_effect_eviscerate"
+    },
+    {
+        "card_name": "Fireball",
+        "card_description": "Deal 6 damage to all enemies.",
+        "card_cost": 4,
+        "card_class": "Mage",
+        "card_effect": "scr_effect_fireball"
+    }
+]
