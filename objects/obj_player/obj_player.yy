@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_controller",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_player",
+  "eventList":[],
   "managed":true,
-  "name":"obj_controller",
+  "name":"obj_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Game Systems",
+    "path":"folders/Objects/Game Systems.yy",
   },
   "parentObjectId":null,
   "persistent":false,

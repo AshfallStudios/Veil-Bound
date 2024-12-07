@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_start_round",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_start_round",
+  "parent":{
+    "name":"InitiativeHandling",
+    "path":"folders/Scripts/Systems/InitiativeHandling.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

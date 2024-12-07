@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_fatigue_shuffler",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_fatigue_shuffler",
+  "parent":{
+    "name":"fatigueShuffle",
+    "path":"folders/Scripts/Systems/fatigueShuffle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_recycle_hand",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_recycle_hand",
+  "parent":{
+    "name":"CardHandling",
+    "path":"folders/Scripts/Systems/CardHandling.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
