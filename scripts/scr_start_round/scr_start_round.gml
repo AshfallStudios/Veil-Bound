@@ -1,14 +1,5 @@
-// scr_start_round.gml
-/// @desc Start a new round and update initiative
-
+// Start a new round
 global.round_number += 1;
+global.initiative = min(global.max_initiative, global.initiative + global.initiative_gain);
 
-// Gain initiative and cap it at the max
-global.initiative += global.initiative_gain;
-if (global.initiative > global.max_initiative) { // Fixing comparison
-    global.initiative = global.max_initiative;
-}
-
-// Debug log
-show_debug_message("Round: " + string(global.round_number) + 
-    " | Initiative: " + string(global.initiative));
+show_debug_message("Round: " + string(global.round_number) + " | Initiative: " + string(global.initiative));

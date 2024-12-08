@@ -1,9 +1,7 @@
-//scr_recycle_hand.gml
-/// @desc recycle cards from the hand into the deck
-
+// Move excess cards to the graveyard
 while (array_length(global.hand) > global.max_handsize) {
-	var card_to_recycle = array_pop(global.hand); // pick the last card
-	array_push(global.deck, card_to_recycle);
+    var card = array_pop(global.hand);
+    array_push(global.graveyard, card);
+    show_debug_message("Recycled card to graveyard: " + string(card));
 }
 
-show_debug_message("recycled hand to max size.");
