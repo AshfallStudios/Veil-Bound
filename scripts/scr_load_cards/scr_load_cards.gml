@@ -1,6 +1,6 @@
-function scr_load_cards(){
+function scr_load_cards() {
     // Path to the cards JSON file
-    var json_path = "data/cards.json";
+    var json_path = "cards.json";
 
     // Open the file for reading
     var json_data = file_text_open_read(json_path);
@@ -26,13 +26,21 @@ function scr_load_cards(){
         array_push(global.card_pool, card_info);
     }
 
+    // Check if the "CardsLayer" exists
+    if (!layer_exists("CardsLayer")) {
+        show_error("The layer 'CardsLayer' does not exist in the current room!", true);
+        return; // Stop further execution if the layer is missing
+    }
+
     // After loading the cards, you can also create instances
     global.card_instances = []; // Array to store card instances
 
     // Iterate over the card data to create instances
     for (var i = 0; i < array_length(global.card_pool); i++) {
         var card_info = global.card_pool[i];
-        var card_instance = instance_create_layer(100 + i * 50, 100, "LayerName", obj_card);
+        
+        // Create the card instance on the "CardsLayer"
+        var card_instance = instance_create_layer(100 + i * 50, 100, CardsLayer, obj_card);
 
         // Set card properties
         card_instance.card_name = card_info.name;
@@ -45,5 +53,5 @@ function scr_load_cards(){
     }
 }
 
-// Calls back the fuction to load the cards on Create Event
+// Calls back the function to load the cards on Create Event
 scr_load_cards();
