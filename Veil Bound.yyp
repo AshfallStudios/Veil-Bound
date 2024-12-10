@@ -54,6 +54,7 @@
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"scr_draw_cards","path":"scripts/scr_draw_cards/scr_draw_cards.yy",},},
     {"id":{"name":"scr_fatigue_shuffler","path":"scripts/scr_fatigue_shuffler/scr_fatigue_shuffler.yy",},},
+    {"id":{"name":"scr_initialize_globals","path":"scripts/scr_initialize_globals/scr_initialize_globals.yy",},},
     {"id":{"name":"scr_load_cards","path":"scripts/scr_load_cards/scr_load_cards.yy",},},
     {"id":{"name":"scr_play_card","path":"scripts/scr_play_card/scr_play_card.yy",},},
     {"id":{"name":"scr_recycle_hand","path":"scripts/scr_recycle_hand/scr_recycle_hand.yy",},},
