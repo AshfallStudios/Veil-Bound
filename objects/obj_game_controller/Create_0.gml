@@ -25,4 +25,4 @@ if (keyboard_check_pressed(vk_space)) {  // Press space to start a new round
     scr_start_round();  // Call the start round script
     scr_draw_cards(3);  // Draw 3 cards at the start of the round
 }
-
+scr_load_cards();
