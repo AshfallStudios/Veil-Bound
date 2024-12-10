@@ -1,6 +1,7 @@
 // Create event for obj_game_controller
 
 // Initialize global variables
+global.hand = [];  // Initialize an empty hand
 global.max_handsize = 7;  // Set max hand size
 global.max_initiative = 20;  // Set initiative max
 global.initiative = 0;  // Set starting initiative
@@ -8,7 +9,6 @@ global.initiative_gain = 3;  // Set initiative gain
 global.round_number = 1;  // Set round number
 
 global.deck = ["card1", "card2", "card3"];  // Initialize deck with sample cards
-global.hand = [];  // Initialize an empty hand
 global.graveyard = [];  // Initialize an empty graveyard
 global.player_hp = 40;  // Set player HP
 
