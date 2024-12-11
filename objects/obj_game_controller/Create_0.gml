@@ -15,3 +15,8 @@ global.room_fully_initialized = false; // New flag to track full initialization
 global.hand_logged = false; // New flag to prevent infinite logging of `global.hand`
 
 show_debug_message("Room Start Event triggered for room: " + room_get_name(room));
+// Set initial phase to "Intent"
+global.game_phase = "Intent";
+
+// List of phases for clarity
+global.phases = ["Intent", "Counter", "Resolve", "Recycle", "Draw", "EndRound"];

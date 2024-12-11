@@ -122,7 +122,7 @@
     {"id":{"name":"scr_recycle_hand","path":"scripts/scr_recycle_hand/scr_recycle_hand.yy",},},
     {"id":{"name":"scr_reset_initiative","path":"scripts/scr_reset_initiative/scr_reset_initiative.yy",},},
     {"id":{"name":"scr_start_round","path":"scripts/scr_start_round/scr_start_round.yy",},},
-    {"id":{"name":"spr_test_card","path":"sprites/spr_test_card/spr_test_card.yy",},},
+    {"id":{"name":"spr_test_card1","path":"sprites/spr_test_card1/spr_test_card1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

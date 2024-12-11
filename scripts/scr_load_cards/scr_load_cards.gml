@@ -42,15 +42,20 @@ function scr_load_cards() {
         // Create the card instance on the "CardsLayer"
         var card_instance = instance_create_layer(100 + i * 50, 100, "CardsLayer", obj_card);
 
-        // Set card properties using JSON keys
-        card_instance.card_name = card_info.card_name;  // Corrected key
-        card_instance.card_type = card_info.card_class; // Corrected key for class
-        card_instance.card_cost = card_info.card_cost;  // Corrected key for cost
-        card_instance.card_effect = card_info.card_effect; // Corrected key for effect
+        if (card_instance != noone) {
+            // Set card properties using JSON keys
+            card_instance.card_name = card_info.card_name;  // Corrected key
+            card_instance.card_type = card_info.card_class; // Corrected key for class
+            card_instance.card_cost = card_info.card_cost;  // Corrected key for cost
+            card_instance.card_effect = card_info.card_effect; // Corrected key for effect
 
-        // Store the instance in the global array
-        array_push(global.card_instances, card_instance);
+            // Store the instance in the global array
+            array_push(global.card_instances, card_instance);
+
+            // Debug message
+            show_debug_message("Card instance created: " + string(card_instance.card_name));
+        } else {
+            show_debug_message("Error: Failed to create card instance for " + string(card_info.card_name));
+        }
     }
 }
-
-
