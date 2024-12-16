@@ -123,6 +123,8 @@
     {"id":{"name":"scr_reset_initiative","path":"scripts/scr_reset_initiative/scr_reset_initiative.yy",},},
     {"id":{"name":"scr_start_round","path":"scripts/scr_start_round/scr_start_round.yy",},},
     {"id":{"name":"spr_test_card1","path":"sprites/spr_test_card1/spr_test_card1.yy",},},
+    {"id":{"name":"spr_test_card2","path":"sprites/spr_test_card2/spr_test_card2.yy",},},
+    {"id":{"name":"spr_test_card3","path":"sprites/spr_test_card3/spr_test_card3.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
